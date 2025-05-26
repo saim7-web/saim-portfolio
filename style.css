@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Syed Saim Shah | AI & Robotics Engineer</title>
+
+  <!-- AOS Library -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      AOS.init({
+        duration: 800,
+        once: true,
+      });
+    });
+  </script>
+</head>
+<body>
+
+  <header id="header" data-aos="fade-down">
+    <div class="intro">
+      <img src="assets/img/profile.jpeg" alt="Profile" class="profile-pic" />
+      <h1>Syed Saim Shah</h1>
+      <p>AI & Robotics Engineer | Python Developer | Automation Specialist</p>
+      <div class="contact-links">
+        <a href="mailto:syedsaim1218@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+        <a href="https://wa.me/92347741401" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="cv-section" data-aos="fade-up">
+      <div class="container">
+        <h2>👤 About Me</h2>
+        <p>
+          I’m a self-taught Python developer with over 4 years of hands-on experience in real-world applications.
+          My expertise spans web development, AI, automation, and robotics. I've built everything from smart conveyor belts
+          to autonomous rovers and JARVIS-style voice assistants.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="cv-section" data-aos="fade-up" data-aos-delay="100">
+      <div class="container">
+        <h2>💻 Skills</h2>
+        <ul>
+          <li>Programming: Python, C++, JavaScript</li>
+          <li>AI & Machine Learning: NLP, model development, automation</li>
+          <li>Robotics: Arduino, Raspberry Pi, sensors, real-time control</li>
+          <li>Web: HTML, CSS, Flask, APIs</li>
+          <li>Tools: Git, VS Code, OpenCV</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="cv-section" data-aos="fade-up" data-aos-delay="200">
+      <div class="container">
+        <h2>🚀 Projects</h2>
+        <ul>
+          <li><strong>JARVIS AI Assistant:</strong> Voice-activated assistant for smart home control using Python</li>
+          <li><strong>Mind-Controlled Robotic Hand:</strong> Uses brain signals to control hand movements via Arduino</li>
+          <li><strong>Mars Rover:</strong> Autonomous rover simulation with terrain navigation and obstacle detection</li>
+          <li><strong>Smart Conveyor Belt:</strong> AI-based detection and control system for industrial automation</li>
+        </ul>
+      </div>
+    </section>
