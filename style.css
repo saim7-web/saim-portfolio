@@ -24,7 +24,7 @@
 
   <header id="header" data-aos="fade-down">
     <div class="intro">
-     <img src="profile.jpeg" alt="Profile" class="profile-pic" />
+      background: url('profile.jpeg') no-repeat center center/cover;
       <h1>Syed Saim Shah</h1>
       <p>AI & Robotics Engineer | Python Developer | Automation Specialist</p>
       <div class="contact-links">
