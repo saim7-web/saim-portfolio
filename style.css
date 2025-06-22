@@ -22,9 +22,8 @@
 </head>
 <body>
 
-  <header id="header" data-aos="fade-down">
+  <header id="header" data-aos="fade-down" style="background: url('profile.jpeg') no-repeat center center/cover; height: 100vh;">
     <div class="intro">
-      background: url('profile.jpeg') no-repeat center center/cover;
       <h1>Syed Saim Shah</h1>
       <p>AI & Robotics Engineer | Python Developer | Automation Specialist</p>
       <div class="contact-links">
@@ -70,3 +69,6 @@
         </ul>
       </div>
     </section>
+  </main>
+</body>
+</html>
